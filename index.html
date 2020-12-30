@@ -21,7 +21,7 @@
 <body>
       <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top" >
         <div class="container">
-            <a class="navbar-brand" href="#"> <img src="./assets/img/favicon.jpg" style="width:40px" alt=""></a>
+            <a class="navbar-brand"  href="#inicio"> <img src="./assets/img/favicon.jpg" style="width:40px" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,16 +29,16 @@
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mí<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#yo">Sobre mí<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#experiencias">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Trabajos</a>
+                <a class="nav-link" href="#trabajos">Trabajos</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
             </ul>
             </div>
@@ -48,23 +48,23 @@
     
       <header>
 
-        <div class="container mt-5 pt-5 text-center text-white">
+        <div id="inicio" class="container mt-5 pt-5 text-center text-white">
           <div class="container">
             <h2>YO SOY</h2>
             <div class="card-footer bg-white py-0"></div>
-            <h1>VICENTE CARMONA</h1>
+            <h1 id="nombre"  >VICENTE CARMONA</h1>
           </div>
         </div>
 
 
       </header>
 
-      <section class="yo container my-5">
+      <section id="yo" class="yo container my-5">
 
           <div class="row">
               <div class="col-md-12 mb-5">
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h4>
-                <div class="card-footer bg-black bg-dark py-1 col-md-12" style="width:20%;"></div>
+                
               </div>
               
               <div class="row">
@@ -79,17 +79,44 @@
           </div>
       </section>
 
-      <section class="experiencia">
+      <section id ="experiencias" class="experiencias mt-4">
         <div class="container">
           <div class="row">
-            <div class="col-md-12"> <h1 class="text-center">MI EXPERIENCIA</h1></div>
+            <div class="col-md-12 mb-3"> <h1 class="text-center">MI EXPERIENCIA</h1></div>
           </div>
+          <div class="row mb-3">
+            <div class="col-md-6 text-center mb-5" >
+              <i class="fab fa-java fa-10x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Desarrollador Java año 2020"> <br> <h3>Desarrollador Java</h3></i>
+            </div>
+
+            <div class="col-md-6 text-center">
+              <i class="fab fa-js fa-10x " data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Desarrollador JS año 2020"> <br> <h3>Desarrollador Javascript</h3></i>
+            </div>
+            
+
+            
+
+
+          </div>
+
+           
+
+           
+
+           
+            
+
+            
+
+
+
+
         </div>
       </section>
 
 
-      <section class="trabajos bg-success pt-5">
-        <h1 class="text-center pb-3 text-white">MIS ÚLTIMOS TRABAJOS</h1>
+      <section id ="trabajos" class="trabajos bg-success py-5">
+        <h1 class="text-center pb-3 text-white mt-2" >MIS ÚLTIMOS TRABAJOS</h1>
         <div class="container">
           <div class="row mt-3">
             <div class="col-md-6 col-lg-4 mt-5">
@@ -162,13 +189,46 @@
 
             
         </div>
+      </section>
+
+
+      <section id="contacto">
+
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/CqQU2jzI?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      </section>
+
+      <footer class="iconos-section py-3 bg-success align-middle">
+        
+           <div class="container">
+              <div class="row">
+                <div class="col-md-6 align-middle"> 
+                  <h1 class="text-white pb-0 text-center pt-2">VICENTE</h1>
+                </div>
+
+            
+                <div class="col-md-6 iconos align-middle">
+                  <a href="https://www.instagram.com/vicecf/" target="_blank"> <i class="fab fa-instagram fa-4x pl-4"></i> </a>
+                  <a href="https://www.linkedin.com/in/vicente-carmona/" target="_blank"> <i class="fab fa-linkedin fa-4x pl-4"></i></a> 
+                  <a href="https://github.com/vcarmof" target="_blank"> <i class="fab fa-github fa-4x pl-4"></i></a>
+                </div>
+
+              </div>  
+            </div>
+      
+         
+        
+      </footer>
+        
+
+
+
+
                   
 
 
 
 
 
-      </section>
 
 
 
