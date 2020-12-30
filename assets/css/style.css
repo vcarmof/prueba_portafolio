@@ -22,6 +22,8 @@ header {
     header {
         padding-bottom: 20rem;
     }
+
+   
 }
 
 .yo p {
@@ -44,3 +46,10 @@ footer p {
     font-weight:400;
     vertical-align:middle;
 }
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+  }
